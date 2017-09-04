@@ -1,0 +1,82 @@
+/* Opening Page */
+
+body {
+	width: 960px;
+	background-color: black;
+	margin: auto;
+	color: white;
+	font-family: Cinzel;
+}
+
+/* Front Page */
+
+.header-image {
+	display: inline;
+	float: left;
+}
+
+nav {
+	float: right;
+	display: inline-block;
+	font-family: Cinzel;
+	margin: 60px;
+
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	padding: 20px;
+	font-size: 20px;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+li a:hover {
+	color: lightgrey;
+}
+
+/* News Articles */
+section {
+	width: 100%;
+	clear: left;
+	text-align: center;
+}
+
+/* Store */
+
+ .plz {
+	margin: 30px 10px 5px 80px;
+	display: block;
+	clear: left;
+}
+
+.gallery {
+	clear: both;
+	display: block;
+	margin-left: 40px;
+}
+
+.gallery img {
+	margin: 30px 20px 200px 50px;
+	padding: 5px;
+}
+
+.gallery a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+
+/* footer */
+footer {
+	clear: both;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
