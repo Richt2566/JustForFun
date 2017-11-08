@@ -71,6 +71,30 @@ section {
 	color: red;
 }
 
+/* Tour */
+
+.tour-info {
+	color: white;
+	margin-bottom: 100px;
+}
+
+/* Contact */
+
+.message-box {
+	margin-top: 20px;
+	float: left;
+	border: 2px solid white;
+	padding: 5px;
+}
+
+input:focus::-webkit-input-placeholder { 
+	color:transparent; 
+}
+
+input:focus:-moz-placeholder { 
+	color:transparent; 
+}
+
 
 /* footer */
 footer {
